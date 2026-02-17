@@ -120,7 +120,7 @@ VeteranAssistance.CreateNode()
 
 
 // 2. Initialize the App with your App ID
-const APP_ID = "mdb_sa_id_6992827c7a33c0edd85bd618";
+const APP_ID = "mdb_sa_id_6992827c7a33c0edd85bd618"; //may want remove begining before numbers
 const app = new Realm.App({ id: APP_ID });
 
 async function runSearch() {
